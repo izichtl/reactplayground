@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function MasterHeader () {
     return(
@@ -7,17 +8,23 @@ function MasterHeader () {
                     
             <header className="App-header">
             
-            <p>
-                Ivan Zichtl
-            </p>
+            <Link 
+            to='/'
+            className="App-link"
+            ><p className="App-link">
+                React Playground
+            </p></Link>
+            <Link 
+            to='/'
+            className="App-link">
             <a
                 className="App-link"
                 href="https://devchallenges.io/challenges"
                 target="_blank"
                 rel="noopener noreferrer"
             >
-                Dev Challenges
-            </a>
+               Index
+            </a></Link>
             </header>
 
 

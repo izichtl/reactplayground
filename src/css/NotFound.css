@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap');
+
+
+
+.notfound{
+    font-size: calc(2 / 1vh);
+    color: plum;
+    font-family: 'Barlow';
+    font-weight: 600;
+}
+.notfound > h3{
+    font-size: calc(40% + 30px);
+}
+
+.svg404{
+    width: 30%;
+    margin: auto;
+}
+
+@media only screen and (max-width: 920px){
+    .notfound > h3{
+        font-size: calc(40% + 20px);
+    }
+    .svg404{
+        width: 60%;
+        margin: auto;
+    }
+}
