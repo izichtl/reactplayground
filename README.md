@@ -1,5 +1,5 @@
 ## ReactPlayground
-Space to post some React pages, components and testes
+>React workspace to post some pages, components and tests , can be accessed [here](https://observerplayground.herokuapp.com/).
 ### Installation
 Install dependency 
 >npm install

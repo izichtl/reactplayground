@@ -63,6 +63,9 @@
 .bodyPage00 > p {
   text-align: start;
   font-size: 25px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  
 }
 ul{
   display: flex;
@@ -78,6 +81,14 @@ li{
   text-decoration: none;  
   padding: 8px 0px 8px 0px;
   
+}
+.indexLink{
+  text-decoration: none;
+  color: black;
+}
+.indexLink:hover{
+  text-decoration: none;
+  color: mediumvioletred;
 }
 
 

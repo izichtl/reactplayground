@@ -9,19 +9,23 @@ function BodyContent() {
         <div> 
             <div className='bodyContent'>
                 <div className='bodyPage00'>
-                    <h1 className='bodyPageh1' >Space to host some React pages</h1>
+                    <h1 className='bodyPageh1' >Space to host some React pages, componets and tests</h1>
                     <p>Index</p>
                     <ul >
                         <Link 
+                            className='indexLink'
                             to='/01'>
                         <li>Movie Crew</li></Link>
-                        <Link 
+                        <Link
+                            className='indexLink' 
                             to='/02'>
                         <li>404 Not Found</li></Link> 
-                        <Link 
+                        <Link
+                            className='indexLink'
                             to='/03'>
                         <li>Under Constrution</li></Link> 
-                        <Link 
+                        <Link
+                            className='indexLink'
                             to='/04'>
                         <li>Buttons</li></Link> 
                         
