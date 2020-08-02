@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap');
+
+
+
+.underConstrution{
+    font-size: calc(5px + 1vmin);
+    color: plum;
+    font-family: 'Barlow';
+    font-weight: 600;
+}
+.underConstrution > h3{
+    font-size: calc(40% + 30px);
+}
+
+.svgUnder{
+    width: 40%;
+    margin: auto;
+}
+
+@media only screen and (max-width: 920px){
+    .underConstrution > h3{
+        font-size: calc(40% + 20px);
+    }
+    .svgUnder{
+        width: 60%;
+        margin: auto;
+    }
+}

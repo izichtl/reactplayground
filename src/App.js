@@ -7,11 +7,15 @@ import {
 import MasterHeader from './componets/MasterHeader'
 import BodyContent from './componets/BodyContent'
 import BodyContent01 from './componets/BodyContent01'
-import BodyContent02 from './componets/BodyContent02'
+import NotFound from './componets/NotFound'
+import UnderConstrution from './componets/UnderConstrution'
 import BodyContent03 from './componets/BodyContent03'
+
 import './App.css';
 import './css/c01.css';
+import './css/c03.css';
 import './css/NotFound.css';
+import './css/UnderConstrution.css'
 
 
 function App() {
@@ -27,9 +31,12 @@ function App() {
          <BodyContent01 className='b'/> 
         </Route>
         <Route exact path='/02'>
-         <BodyContent02 className='b'/> 
+         <NotFound className='b'/> 
         </Route>
         <Route exact path='/03'>
+         <UnderConstrution className='b'/> 
+        </Route>
+        <Route exact path='/04'>
          <BodyContent03 className='b'/> 
         </Route>
         </Switch>

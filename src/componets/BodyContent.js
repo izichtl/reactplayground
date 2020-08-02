@@ -9,8 +9,8 @@ function BodyContent() {
         <div> 
             <div className='bodyContent'>
                 <div className='bodyPage00'>
-                    <h1 className='bodyPageh1' >This is Home</h1>
-                    <p>This is a teste ground for some projects and studys</p>
+                    <h1 className='bodyPageh1' >Space to host some React pages</h1>
+                    <p>Index</p>
                     <ul >
                         <Link 
                             to='/01'>
@@ -20,6 +20,9 @@ function BodyContent() {
                         <li>404 Not Found</li></Link> 
                         <Link 
                             to='/03'>
+                        <li>Under Constrution</li></Link> 
+                        <Link 
+                            to='/04'>
                         <li>Buttons</li></Link> 
                         
                         

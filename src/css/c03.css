@@ -1,0 +1,59 @@
+.buttonDiv{
+    border: 2px dashed mediumvioletred;
+    padding: 10px 20px 20px 20px;
+    width: 70%;
+    margin: auto;
+    margin-top: 20px;
+}
+.buttonDiv > h1{
+    color: mediumvioletred;
+    font-size: calc(16px + 1vmin);
+}
+.button01{
+    color: white;
+    background-color: mediumvioletred;
+    border-style: none;
+    padding: 10px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin: 10px;
+    border: 1px solid white;
+}
+.button01:hover{
+    background-color: white;
+    color: mediumvioletred;
+    border: 1px solid mediumvioletred;
+}
+.button02{
+    color: mediumvioletred;
+    background-color: white;
+    border-style: solid;
+    border: 1px solid mediumvioletred;
+    padding: 10px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin: 10px;
+}
+.button02:hover{
+    background-color: white;
+    color: mediumvioletred;
+    border: 1px solid rgb(21, 149, 36);
+}
+.button03{
+    background-color: plum;
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px;
+    width: 120px;
+    height: 25px;
+    
+    border-style: none;
+    border: 1px solid white;
+}
+.button03:hover{
+    background-color: white;
+    color: mediumvioletred;
+    border: 1px solid rgb(255, 255, 255);
+    
+}
+
