@@ -1,0 +1,31 @@
+.questionSite {
+    background-color: wheat;
+    height: 100vh;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    
+}
+.questionBody {
+    background-color: tomato;
+    color: white;
+    font-size: large;
+    width: 80%;
+    height: 80%;
+    justify-content: end;
+    margin: auto;
+    margin-top: 60px;
+}
+
+.questionHolder{
+    background-color: violet;
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+
+.realQuestion{
+    background-color: teal;
+}

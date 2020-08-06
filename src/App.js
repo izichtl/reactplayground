@@ -10,12 +10,16 @@ import BodyContent01 from './componets/BodyContent01'
 import NotFound from './componets/NotFound'
 import UnderConstrution from './componets/UnderConstrution'
 import BodyContent03 from './componets/BodyContent03'
+import QuestionSite from './componets/QuestionSite'
+import Login from './componets/Login'
 
 import './App.css';
 import './css/c01.css';
 import './css/c03.css';
 import './css/NotFound.css';
 import './css/UnderConstrution.css'
+import './css/QuestionSite.css'
+import './css/Login.css'
 
 
 function App() {
@@ -38,6 +42,12 @@ function App() {
         </Route>
         <Route exact path='/04'>
          <BodyContent03 className='b'/> 
+        </Route>
+        <Route exact path='/05'>
+         <QuestionSite className='b'/> 
+        </Route>
+        <Route exact path='/06'>
+         <Login className='b'/> 
         </Route>
         </Switch>
       </Router>

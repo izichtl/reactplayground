@@ -28,6 +28,14 @@ function BodyContent() {
                             className='indexLink'
                             to='/04'>
                         <li>Buttons</li></Link> 
+                        <Link
+                            className='indexLink'
+                            to='/05'>
+                        <li>QuestionSite - Under Constrution</li></Link> 
+                        <Link
+                            className='indexLink'
+                            to='/06'>
+                        <li>Login</li></Link> 
                         
                         
                     
