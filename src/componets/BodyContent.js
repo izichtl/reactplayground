@@ -15,7 +15,7 @@ function BodyContent() {
                         <Link 
                             className='indexLink'
                             to='/01'>
-                        <li>Movie Crew</li></Link>
+                        <li>Team Page</li></Link>
                         <Link
                             className='indexLink' 
                             to='/02'>
@@ -35,7 +35,7 @@ function BodyContent() {
                         <Link
                             className='indexLink'
                             to='/06'>
-                        <li>Login</li></Link> 
+                        <li>Login Page</li></Link> 
                         
                         
                     

@@ -1,12 +1,12 @@
 import React from 'react'
-import LCFA from '../svg/LCFA.svg'
+import NONE from '../svg/NONE.svg'
 
 function NotFoundSVG (){
     return(
         <div className='notfoundContainer'>
 
             <div>
-             <img className='avatar' src={LCFA} alt="LCFA logo" />
+             <img className='avatar' src={NONE} alt="LCFA logo" />
             </div>
 
         </div>
