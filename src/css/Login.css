@@ -46,13 +46,19 @@
 button {
     background-color: #43BCE3;
     color: white;
-    padding: 14px 20px;
+    padding: 10px 15px;
     margin: 8px 0;
-    border: none;
+    border: 1px solid #43BCE3;
     cursor: pointer;
     width: 100%;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 2px;
   }
-
+button:hover{
+    background-color: white;
+    color: #43BCE3
+}
 
   input[type=text], input[type=password] {
     width: 100%;
